@@ -3,10 +3,6 @@ application:
   project: strapi
   cloud_region: aws/eu-west-3
   publicly_accessible: true
-databases:
-- type: postgresql
-  version: "11.5"
-  name: my-postgresql-3498225
 routers:
 - name: main
   routes:

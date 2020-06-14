@@ -3,6 +3,11 @@ application:
   project: strapi
   cloud_region: aws/us-east-2
   publicly_accessible: true
+  storage:
+    - name: data
+      type: ssd
+      size: 10GB
+      mount_point: /srv/app
 databases:
 - type: postgresql
   version: "11"

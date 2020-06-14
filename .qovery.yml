@@ -1,11 +1,11 @@
 application:
   name: strapi
   project: strapi
-  cloud_region: aws/eu-west-3
+  cloud_region: aws/us-east-2
   publicly_accessible: true
 databases:
 - type: postgresql
-  version: "11.5"
+  version: "11"
   name: my-postgresql-3498225
 routers:
 - name: main

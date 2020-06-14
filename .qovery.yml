@@ -14,6 +14,9 @@ databases:
   name: my-psql
 routers:
 - name: main
+  custom_domains:
+  - branch: master
+    domain: strapi.qvy.io
   routes:
   - application_name: strapi
     paths:

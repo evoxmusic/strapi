@@ -1,4 +1,4 @@
-FROM strapi/strapi
+FROM strapi/strapi:3.1
 
 EXPOSE 1337
 

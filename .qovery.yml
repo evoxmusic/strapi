@@ -1,8 +1,8 @@
 application:
   name: strapi
   project: strapi
-  cpu: 512m
-  memory: 512mb
+  cpu: 1000m
+  memory: 1gb
   publicly_accessible: true
     #  storage:
     #    - name: data

@@ -10,6 +10,9 @@ application:
       type: ssd
       size: 10GB
       mount_point: /srv/app
+  depends_on:
+  - frontend1
+  - frontend2
 databases:
 - type: postgresql
   version: 12

@@ -3,7 +3,6 @@ application:
   project: strapi
   cpu: 800m
   ram: 512mb
-  start_timeout: 60s
   publicly_accessible: true
   storage:
     - name: data

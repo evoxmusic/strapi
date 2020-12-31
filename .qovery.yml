@@ -19,6 +19,8 @@ routers:
   custom_domains:
   - branch: master
     domain: strapi.qvy.io
+  - branch: do/test
+    domain: do-test.qvy.io
   routes:
   - application_name: strapi
     paths:

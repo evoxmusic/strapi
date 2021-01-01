@@ -6,10 +6,10 @@ application:
   start_timeout: 15s
   publicly_accessible: true
   storage:
-  - name: data
-    type: ssd
-    size: 10GB
-    mount_point: /srv/app
+    - name: data
+      type: ssd
+      size: 10GB
+      mount_point: /srv/app
 databases:
 - type: postgresql
   version: 12

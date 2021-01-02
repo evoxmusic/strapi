@@ -23,4 +23,3 @@ routers:
   - application_name: strapi
     paths:
     - /*
-
